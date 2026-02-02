@@ -1,1 +1,13 @@
 # Find-the-factorial-of-a-number-using-recursion
+def fact(n):
+    if n == 1:
+        return 1
+    else:
+        return n * fact(n - 1)
+
+num = int(input("Enter an integer: "))
+result = fact(num)
+print("The factorial of", num, "is:", result)
+output
+Enter an integer: 5
+The factorial of 5 is: 120
